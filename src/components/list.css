@@ -1,0 +1,19 @@
+.list-container {
+    background-color: #5c6ba8;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.list-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-container li {
+    color: white;
+}
+
+.first {
+    color: blanchedalmond;
+    font-weight: bold;
+}
