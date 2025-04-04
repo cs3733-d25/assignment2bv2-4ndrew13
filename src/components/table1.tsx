@@ -3,7 +3,7 @@ import React from "react";
 const Table1: React.FC = () => {
     return (
         <div className="table-container">
-            <h3>Current PRs</h3>
+            <h3 className="diffColor">Current PRs</h3>
             <table className="collapse">
                 <thead>
                 <tr>

@@ -3,7 +3,7 @@ import React from "react";
 const Form: React.FC = () => {
     return (
         <div className="form-container">
-            <h3>What Are Your PRs?</h3>
+            <h3 className="diffColor">What Are Your PRs?</h3>
             <form>
                 <label>First Name</label>
                 <input type="text" name="firstname" required />
@@ -11,7 +11,7 @@ const Form: React.FC = () => {
                 <label>Last Name</label>
                 <input type="text" name="lastname" required />
 
-                <label>Grad Year</label>
+                <label className="diffColor">Grad Year</label>
                 <div className="checkboxgroup">
                     <input type="checkbox" /> <label>2025</label>
                     <input type="checkbox" /> <label>2026</label>
@@ -19,7 +19,7 @@ const Form: React.FC = () => {
                     <input type="checkbox" /> <label>2028</label>
                 </div>
 
-                <label>Lift</label>
+                <label className="diffColor">Lift</label>
                 <div className="radiogroup">
                     <input type="radio" name="lift" /> <label>Deadlift</label>
                     <input type="radio" name="lift" /> <label>Back Squat</label>
@@ -28,10 +28,10 @@ const Form: React.FC = () => {
                     <input type="radio" name="lift" /> <label>Barbell Cleans</label>
                 </div>
 
-                <label>PR Weight and Number of Reps</label>
+                <label className="diffColor">PR Weight and Number of Reps</label>
                 <textarea name="pr" rows={4} cols={30}></textarea>
 
-                <label>How Recent?</label>
+                <label className="diffColor">How Recent?</label>
                 <select name="recent">
                     <option value="pastyr">Past Year</option>
                     <option value="past5">Past 5 Years</option>

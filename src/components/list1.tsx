@@ -4,9 +4,9 @@ import "./list.css";
 const List1: React.FC = () => {
     return (
         <div className="list-container">
-            <h3>My Favorite Exercises</h3>
+            <h3 className="diffColor">My Favorite Exercises</h3>
             <ul>
-                <li className="first">Deadlift - Lifting weight off the ground</li>
+                <li className="diffColor">Deadlift - Lifting weight off the ground</li>
                 <li>Back Squat - Squatting with a barbell on your back</li>
                 <li>Bench Press - Pressing weight up while laying flat</li>
                 <li>Overhead Press - Pressing weight up while standing up</li>
